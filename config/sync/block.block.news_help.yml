@@ -1,0 +1,22 @@
+uuid: dbf91928-4e44-4c69-a623-718d3fa791d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - news
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: news_help
+theme: news
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
