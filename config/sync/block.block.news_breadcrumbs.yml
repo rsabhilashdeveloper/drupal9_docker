@@ -1,0 +1,22 @@
+uuid: 122d395c-6d9c-4456-a9a0-17a1cfe50e93
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - news
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: news_breadcrumbs
+theme: news
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

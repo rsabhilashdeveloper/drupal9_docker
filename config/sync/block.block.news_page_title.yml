@@ -1,0 +1,20 @@
+uuid: 2cace623-9819-4168-a1f1-b3a6cf345f93
+langcode: en
+status: true
+dependencies:
+  theme:
+    - news
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: news_page_title
+theme: news
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
